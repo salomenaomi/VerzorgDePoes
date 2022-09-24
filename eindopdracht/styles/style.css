@@ -1,0 +1,65 @@
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+form {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+h1, form, p {
+    font-family: monospace;
+    color: darkturquoise;
+    text-align: center;
+}
+
+img {
+    display: flex;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.acties {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#spelen, #voeren, #bier {
+    padding: 10px;
+    margin: 10px;
+    background-color: darkturquoise;
+    border: none;
+    box-shadow: 1px 1px black;
+    border-radius: 20px;
+}
+
+.submitveranderen {
+    padding: 10px;
+    margin: 10px;
+    background-color: darkturquoise;
+    border: none;
+    box-shadow: 1px 1px black;
+}
+
+#spelen:hover, #voeren:hover, #bier:hover {
+    background-color: lightblue;
+}
+
+.submitveranderen:hover {
+    background-color: lightblue;
+}
+
+.submitveranderen:active {
+    background-color: white;
+}
+
+fieldset {
+    border: none;
+}
